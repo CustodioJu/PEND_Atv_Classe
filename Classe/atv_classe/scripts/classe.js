@@ -21,7 +21,7 @@ class Funcionario {
 }
 
 // Criação de uma instância da classe Funcionario e exibição dos detalhes
-const infoFuncionario = new Funcionario("Julia Custódio dos Santos", "7000", "25/06/2020");
+const infoFuncionario = new Funcionario("Julia Custódio dos Santos", 7000, "25/06/2020");
 infoFuncionario.exibirDetalhes(); // Chama o método exibirDetalhes para mostrar as informações de Julia
 
 // Classe Gerente que herda da classe Funcionario
@@ -47,5 +47,5 @@ class Gerente extends Funcionario {
 }
 
 // Criação de uma instância da classe Gerente e exibição dos detalhes
-const tipo = new Gerente("Bruno Carvalho Freitas", "10000" ,"28/04/2012","Reprodução Bovina");
+const tipo = new Gerente("Bruno Carvalho Freitas", 10000 ,"28/04/2012","Reprodução Bovina");
 tipo.Departamento(); // Chama o método Departamento para mostrar as informações do gerente
