@@ -14,7 +14,7 @@ class Funcionario {
 
     // Método para exibir os detalhes do funcionário
     exibirDetalhes() {
-        console.log(`O funcionario(a) se chama: ${this.nome}, seu salário é de : ${this.salario}, 
+        console.log(`O(a) funcionario(a) se chama: ${this.nome}, seu salário é de : ${this.salario}, 
         ele(a) foi admitido em ${this.dataAdmissao} e vai receber uma bonificação de: R$${this.calcularBonus()}.`);
         // Exibe nome, salário, data de admissão e o bônus calculado
     }
