@@ -14,7 +14,7 @@ class Funcionario {
 
     // Método para exibir os detalhes do funcionário
     exibirDetalhes() {
-        console.log(`O(a) funcionario(a) se chama: ${this.nome}, seu salário é de : ${this.salario}, 
+        console.log(`O(a) funcionario(a) se chama: ${this.nome}, seu salário é de : R$${this.salario.toFixed(2)}, 
         ele(a) foi admitido em ${this.dataAdmissao} e vai receber uma bonificação de: R$${this.calcularBonus()}.`);
         // Exibe nome, salário, data de admissão e o bônus calculado
     }
@@ -39,7 +39,7 @@ class Gerente extends Funcionario {
 
     // Método para exibir os detalhes do gerente, incluindo o departamento
     Departamento () {
-        console.log(`O(a) gerente se chama: ${this.nome}, recebe um salário de R$${this.salario}, 
+        console.log(`O(a) gerente se chama: ${this.nome}, recebe um salário de R$${this.salario.toFixed(2)}, 
         foi admitido em ${this.dataAdmissao}, seu departamento é: ${this.departamento} 
         e recebe uma bonificação de R$${this.calcularBonus()}`);
         // Exibe nome, salário, data de admissão, departamento e bônus do gerente
